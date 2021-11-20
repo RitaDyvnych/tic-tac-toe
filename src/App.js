@@ -1,13 +1,14 @@
 import "./App.css";
-import style from "./components/field.module.css";
+import Game from './components/game/Game'
+
 
 
 export default function App() {
 
-
   return (
-      <div className="App">
-        <h1 className={style.title}>Tic Tac Toe</h1>
-      </div>
-    );
+    // <div className="App">
+    //   <h1>Tic Tac Toe</h1>
+    // </div>
+    <Game />
+    )
 }

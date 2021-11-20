@@ -1,0 +1,18 @@
+.btn {
+  width: 100px;
+  height: 100px;
+  background: rgb(197, 230, 79);
+  border: 1px solid rgb(232, 237, 240);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.btn:hover {
+  background: rgb(215, 238, 133);
+  transform: scale(1.03);
+}
